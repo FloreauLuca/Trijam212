@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _maxLife = 10.0f;
     [SerializeField] private AudioSource _sound1 = null;
     [SerializeField] private AudioSource _sound2 = null;
-    private float _score = 10.0f;
+    private float _score = 0.0f;
     [SerializeField] private BoxCollider2D _hammerCollider = null;
     private Rigidbody2D _rigidbody = null;
     private Animator _animator = null;
